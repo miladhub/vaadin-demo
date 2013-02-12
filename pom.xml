@@ -57,6 +57,24 @@
 					<failOnMissingWebXml>false</failOnMissingWebXml>
 				</configuration>
 			</plugin>
+			
+            <!-- <plugin>
+                <groupId>org.mortbay.jetty</groupId>
+                <artifactId>maven-jetty-plugin</artifactId>
+                <version>6.1.24</version>
+                <configuration>
+                  <stopPort>9966</stopPort>
+                  <stopKey>vaadin-demo</stopKey>
+                  <scanIntervalSeconds>0</scanIntervalSeconds>
+                  <webAppConfig>
+                    <contextPath>/vaadin-demo</contextPath>
+                    <baseResource implementation="org.mortbay.resource.ResourceCollection">
+                      <resourcesAsCSV>src/main/webapp,${project.build.directory}/${project.build.finalName}</resourcesAsCSV>
+                    </baseResource>
+                  </webAppConfig>
+                  <webXml>src/main/jetty/web.xml</webXml>
+                </configuration>
+              </plugin> -->
 		</plugins>
 	</build>
 
