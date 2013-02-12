@@ -11,6 +11,7 @@ import com.vaadin.terminal.gwt.server.AbstractApplicationServlet;
 
 @WebServlet(urlPatterns = "/*")
 public class LoginServlet extends AbstractApplicationServlet {
+	
 	private static final long serialVersionUID = 1L;
 
 	@Inject
@@ -27,4 +28,5 @@ public class LoginServlet extends AbstractApplicationServlet {
 			throws ClassNotFoundException {
 		return LoginApp.class;
 	}
+	
 }

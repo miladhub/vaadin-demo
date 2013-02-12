@@ -10,7 +10,9 @@ import com.vaadin.ui.Window;
 import com.vaadin.ui.Button.ClickEvent;
 
 public class LoginWindow extends Window implements Button.ClickListener {
+	
 	private static final long serialVersionUID = 1L;
+	
 	private LoginService loginService;
 	private TextField user;
 	private PasswordField passwd;
@@ -38,4 +40,5 @@ public class LoginWindow extends Window implements Button.ClickListener {
 			showNotification("Failed");
 		}
 	}
+	
 }
