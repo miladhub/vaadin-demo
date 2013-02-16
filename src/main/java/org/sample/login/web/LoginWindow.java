@@ -1,4 +1,4 @@
-package org.sample.login.login;
+package org.sample.login.web;
 
 import org.sample.login.model.LoginService;
 

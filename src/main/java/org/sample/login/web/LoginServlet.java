@@ -1,4 +1,4 @@
-package org.sample.login.login;
+package org.sample.login.web;
 
 import javax.enterprise.inject.Instance;
 import javax.inject.Inject;
