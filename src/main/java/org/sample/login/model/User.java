@@ -1,6 +1,6 @@
 package org.sample.login.model;
 
-public class User {
+public final class User {
 	
 	private String username, password;
 

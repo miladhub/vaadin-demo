@@ -1,6 +1,6 @@
 package org.sample.login.model;
 
-public class Authenticator implements LoginService {
+public final class Authenticator implements LoginService {
 
 	private UsersStore usersStore;
 	
